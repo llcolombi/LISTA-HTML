@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Componentes do Firewall</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    li:hover {
+      background-color: #45a049;
+    }
+    .icon {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Componentes do Firewall</h1>
+    <ul>
+      <li>
+        <span class="icon">🔒</span> Firewalls de Hardware
+      </li>
+      <li>
+        <span class="icon">🔐</span> Firewalls de Software
+      </li>
+      <li>
+        <span class="icon">🚧</span> Regras de Filtragem
+      </li>
+      <li>
+        <span class="icon">🚫</span> Lista de Controle de Acesso (ACL)
+      </li>
+      <li>
+        <span class="icon">🔍</span> Inspeção de Pacotes
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
