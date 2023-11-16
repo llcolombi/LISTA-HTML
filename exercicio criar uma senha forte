@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Passos para Criar uma Senha Forte</title>
+  <style>
+    body {
+      font-family: Times New Roman, serif;
+      background-color: #FFFFFF;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      background-color: #FFFFFF;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+    h1 {
+      color: #000000;
+      text-align: center;
+    }
+    ol {
+      counter-reset: step;
+      padding: 0;
+      list-style-type: none;
+    }
+    li {
+      counter-increment: step;
+      margin-bottom: 20px;
+    }
+    li::before {
+      content: counter(step);
+      background-color: #4caf50;
+      color: #OOFFFF;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      display: inline-block;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Passos para Criar uma Senha Forte</h1>
+    <ol>
+      <li>Escolha uma combinação de letras maiúsculas e minúsculas.</li>
+      <li>Utilize números e caracteres especiais.</li>
+      <li>Mantenha a senha com pelo menos 12 caracteres.</li>
+      <li>Avoid palavras comuns ou sequências óbvias.</li>
+      <li>Atualize suas senhas regularmente.</li>
+    </ol>
+  </div>
+</body>
+</html>
