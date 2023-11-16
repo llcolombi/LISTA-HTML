@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consequências de um vazamento de dados</title>
+  <style>
+    body {
+      font-family: 'Helvetica', sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+    h1 {
+      color: #e44d26; /* Cor da cabeçalho */
+      text-align: center;
+    }
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 20px;
+      position: relative;
+      padding-left: 30px;
+      font-size: 18px;
+      color: #333;
+      background-color: #fff4e5; /* Cor de fundo amarela */
+      border-radius: 5px;
+      padding: 15px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    li:before {
+      content: '\2022'; /* Unicode para um ponto de lista */
+      color: #e44d26; /* Cor do ponto de lista */
+      font-size: 24px;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Consequências do Vazamento de Dados</h1>
+    <ul>
+      <li>Comprometimento da Confiança do Cliente</li>
+      <li>Repercussões Legais e Regulatórias</li>
+      <li>Impacto na Reputação da Marca</li>
+      <li>Perda Financeira Significativa</li>
+      <li>Exposição a Ameaças Cibernéticas</li>
+    </ul>
+  </div>
+</body>
+</html>
