@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Princípios da Segurança Cibernética</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 20px;
+      background-color: #4caf50;
+      color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Princípios da Segurança Cibernética</h1>
+    <ul>
+      <li><strong>1. Princípio da Confidencialidade:</strong> Proteger informações sensíveis contra acesso não autorizado.</li>
+      <li><strong>2. Princípio da Integridade:</strong> Garantir que as informações sejam precisas, completas e não tenham sido alteradas indevidamente.</li>
+      <li><strong>3. Princípio da Disponibilidade:</strong> Assegurar que os recursos de tecnologia estejam disponíveis quando necessário, sem interrupções não autorizadas.</li>
+      <li><strong>4. Princípio da Autenticidade:</strong> Verificar a identidade de usuários e sistemas para evitar acessos não autorizados.</li>
+      <li><strong>5. Princípio da Não Repúdio:</strong> Garantir que a origem de uma ação ou informação não possa ser negada.</li>
+    </ul>
+  </div>
+</body>
+</html>
